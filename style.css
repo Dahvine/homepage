@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAB74E;
+}
+#navlinks{
+    background: white;
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 25vh;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+}
+i:hover{
+    cursor: pointer;
+}
+span{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-left: 70px;
+    margin-right: auto;
+    float:inline-start;
+}
+.container{
+    margin: auto;
+    margin-top: 10%;
+    width: 600px;
+    height: 300px;
+}
+#headtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 30px;
+    
+}
+input{
+    width: 70%;
+    height: 32px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    padding-left: 12px;
+    font-size: 13px;
+    outline: none;
+}
+input::placeholder{
+    opacity: 40%;
+}
+button{
+    height: 34px;
+    padding: 7px 37px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+button:hover{
+    border: 1px solid black;
+    background: #FAB74E;
+    color: black;
+    font-weight: bold;
+}
+#rem{
+    opacity: 40%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 2px;
+    margin-right: 50px;
+}
+#bodytxt{
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fa-globe{
+    color: #FAB74E;
+}
+.fa-bars{
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+
+    }
+    .container{
+        margin-top: 300px;
+        margin-left: 20px;
+    }
+    #navlinks{
+        width: 650px;
+        display: flex;
+        gap: 50px;
+    }
+span{
+    padding-left: 20px;
+}
+li{
+    display: flex;
+}
+.fa-caret-down{
+    padding-left: 5px;
+}
+
+  }
